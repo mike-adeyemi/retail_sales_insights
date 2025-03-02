@@ -1,6 +1,7 @@
 
 # Portfolio: Retail Sales Insights
 
+
 # Table of Contents
 -	[Objective](#objective)
 -	[Data Source](#data-source)
