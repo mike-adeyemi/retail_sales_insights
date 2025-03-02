@@ -198,13 +198,13 @@ SWITCH(
 
 
 # Key Insights
-## A. Sales Performance Analysis
+### A. Sales Performance Analysis
 - **Total Revenue:** £322.97K
 - **Total Sales Quantity:** 5.51K items
 - **Gross Income:** £15.38K
 - **Cost of Goods Sold (COGS):** £307.6K
 
-## B. Customer Analysis
+### B. Customer Analysis
 **Spending Behavior**
 - **Average Transaction Value per Customer Type**:
 
@@ -228,7 +228,7 @@ SWITCH(
 
 🔹 **Insight**: The highest number of transactions occurs in the **evening,** suggesting the need for **targeted promotions and staffing adjustments**.
 
-# C. Branch Performance
+### C. Branch Performance
 **Revenue & Profitability by Branch**
 
 |Branch|	Total Revenue (£)|	Profit (£)|
@@ -244,7 +244,7 @@ SWITCH(
 - **Operational efficiencies** in high-performing locations.
 
   
-# D. Payment Method Analysis
+### D. Payment Method Analysis
 |Payment Method|	Total COGS (£)|
 |-|-|
 |Cash|	106.86K|
@@ -255,8 +255,6 @@ SWITCH(
 
 ### Output
 ![image](https://github.com/user-attachments/assets/855ac6a6-8ac0-42c5-8c71-f723f268c55a)
-
-
 
 
 
