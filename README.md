@@ -82,11 +82,11 @@ The data is sourced from an [Excel extract](https://www.kaggle.com/datasets/moha
 4.	Product Performance (Treemaps, Tables)
 5.	Customer Analysis (Pie Charts, Segmentations)
    
-Dashboard mockup
+## Dashboard mockup
 The dashboard layout follows best practices for usability, featuring:
-•	A clean, intuitive layout
-•	Filters and slicers for dynamic analysis
-•	Visual elements highlighting key insights
+-	A clean, intuitive layout
+-	Filters and slicers for dynamic analysis
+-	Visual elements highlighting key insights
 
 
 ### Tools
