@@ -46,7 +46,7 @@ To develop a Power BI dashboard that offers deep insights into sales trends, cus
 As a Business Analyst, I need a comprehensive dashboard to analyze sales trends, customer behavior, and product performance, allowing the company to optimize its business strategy and increase revenue.
 
 
-# Dataset Overview
+## Dataset Overview
 #### The dataset contains:
 
 - **Invoice Details:** Unique transaction records.
