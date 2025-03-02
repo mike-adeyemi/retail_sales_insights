@@ -194,7 +194,7 @@ To achieve our objective, we need:
 -	Product Details
 -	Store Branch Performance
   
-The data is sourced from an [Excel extract](kaggle.com/datasets/mohamedelaziz/supermarket-sales), with influencer performance metrics collected for analysis.
+The data is sourced from an [Excel extract](https://www.kaggle.com/datasets/mohamedelaziz/supermarket-sales), with influencer performance metrics collected for analysis.
 
 Data Extraction & Storage
 The data is sourced from SQL Server and cleaned before being imported into Power BI for visualization.
