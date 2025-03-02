@@ -1,4 +1,4 @@
-Portfolio- Excel to Power BI
+![image](https://github.com/user-attachments/assets/233f77c2-fcc1-495d-a35d-2eb536367275)Portfolio- Excel to Power BI
 
 Supermarket Sales Data Analysis
 
@@ -335,24 +335,37 @@ Here are the key questions we need to answer for our marketing client:
 ### Output
 ![image](https://github.com/user-attachments/assets/c574707a-2cf1-4a42-803f-2c6d7f7233e8)
 
+### 3. Customer Insights
+|Branch|	 Total Revenue |
+|Female|	 167,882.93 |
+|Male|	 155,083.82 |
 
-Validation & Discovery
-•	Revenue trends showed seasonal fluctuations, with peak sales in Q4.
-•	Certain product categories had high returns, impacting profitability.
+### Output
+![image](https://github.com/user-attachments/assets/55399fe7-3003-493f-9e3c-96f4f3259198)
 
-Recommendations
-1.	Stock More High-Demand Products: Increase stock levels for the most profitable items.
-2.	Focus on Repeat Customers: Implement targeted promotions for high-value customers.
-3.	Optimize Low-Performing Branches: Improve marketing and inventory strategies at underperforming locations.
+#### Notes
+For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI based on this following
+Sales Transaction Data
+-	Excecutive Sales
+-	Product and Customer Insights
 
-Potential ROI & Action Plan
-•	Implementing these insights is projected to increase revenue by 10-15%.
-•	Next Steps:
+### Validation & Discovery
+•	Revenue trends showed seasonal fluctuations, with peak sales in January.
+•	Certain product categories had high returns (Food and Beverages), impacting profitability.
+
+## Recommendations
+1.	Stock More High-Demand Products: Increase stock levels for the most profitable items in Food and Beverages.
+2.	Focus on Repeat Customers in Yangon city: Implement targeted promotions for high-value customers in Yangon branch.
+3.	Optimize Low-Performing Branches: Improve marketing and inventory strategies Branch A and B underperforming locations.
+
+## Potential ROI & Action Plan
+-	Implementing these insights is projected to increase revenue by 10-15%.
+-	Next Steps:
 1.	Roll out customer engagement initiatives.
 2.	Adjust inventory strategies based on sales performance.
 3.	Continue refining the dashboard with new KPIs.
 
-Conclusion
+## Conclusion
 The Power BI dashboard provides critical insights into sales trends, customer behavior, and branch performance. By leveraging data-driven decisions, the company can optimize its strategy to improve revenue and customer satisfaction.
 
 
