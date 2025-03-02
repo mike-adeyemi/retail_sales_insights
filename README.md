@@ -122,7 +122,7 @@ The dashboard layout follows best practices for usability, featuring:
 
 
 # Visualization
-### Result
+### Results
 - What does the dashboard look like?
   
 1.	Total Revenue & Profit Trends
