@@ -4,24 +4,26 @@
 
 # Table of Contents
 - [Objective](#objective)
+- [Dataset Overview](#dataset-overview)
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-- [Mockup](#dashboard-mockup)
-- [Tools](#tools) 
+  - [Mockup](#dashboard-mockup)
+  - [Tools](#tools) 
 - [Development](#development)
-- [Pseudocode](#pseudocode)
-- [Data Cleaning](#data-cleaning)
-- [Data Quality Checks](#data-quality-checks)
+  - [Pseudocode](#pseudocode)
+  - [Data Cleaning](#data-cleaning)
+- [Testing](#testing)
+  - [Data Quality Checks](#data-quality-checks)
 - [Visualization](#visualization)
 - [Results](#results)
+- [DAX Measures](#dax-measures)
 - [Key Metrics](#key-metrics-&-insights)
+- [Calculated Column](#calculated-column)
   - [Sales Analysis](#sales-performance-analysis)
   - [Customer Analysis](#customer-analysis)
   - [Branch Performance](#branch-performance)
   - [Payment Method Analysis](#payment-method-analysis)
-- [DAX Measures](#dax-measures)
-- [Calculated Column](#calculated-column)
 - [Analysis Approach](#analysis-approach)
 - [Validation](#validation)
 - [Discovery](#discovery)
@@ -44,7 +46,6 @@ To develop a Power BI dashboard that offers deep insights into sales trends, cus
 
 As a Business Analyst, I need a comprehensive dashboard to analyze sales trends, customer behavior, and product performance, allowing the company to optimize its business strategy and increase revenue.
 
-### 1. Data Understanding
 
 # Dataset Overview
 #### The dataset contains:
@@ -140,15 +141,6 @@ The dashboard layout follows best practices for usability, featuring:
 3.	Customer Segmentation & Buying Patterns
 4.	Branch Performance Analysis
 
-
-# Key Metrics & Insights
-## A. Sales Performance Analysis
-- **Total Revenue:** £322.97K
-- **Total Sales Quantity:** 5.51K items
-- **Gross Income:** £15.38K
-- **Cost of Goods Sold (COGS):** £307.6K
-
-
 # DAX Measures
 
 ### 1. Total Sales
@@ -205,6 +197,13 @@ SWITCH(
 ### Output
 ![image](https://github.com/user-attachments/assets/42a27de8-7aee-479e-b2a5-8a8b16716753)
 
+
+# Key Metrics & Insights
+## A. Sales Performance Analysis
+- **Total Revenue:** £322.97K
+- **Total Sales Quantity:** 5.51K items
+- **Gross Income:** £15.38K
+- **Cost of Goods Sold (COGS):** £307.6K
 
 ## B. Customer Analysis
 **Spending Behavior**
