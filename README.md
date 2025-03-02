@@ -117,7 +117,7 @@ The dashboard layout follows best practices for usability, featuring:
 -	Retained only relevant columns.
 
 # Testing
-# Data Quality Checks
+### Data Quality Checks
 **1. Row Count Check:** Validate the total number of transactions.
 
 **2. Column Count Check:** Ensure all required fields are present.
