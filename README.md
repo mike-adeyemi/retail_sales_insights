@@ -18,7 +18,7 @@
 - [Visualization](#visualization)
 - [Results](#results)
 - [DAX Measures](#dax-measures)
-- [Calculated Column](#calculated-column)
+  - [Calculated Column](#calculated-column)
 - [Key Insights](#key-insights)
   - [Sales Performance Analysis](#a-sales-performance-analysis)
   - [Customer Analysis](#b-customer-analysis)
