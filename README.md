@@ -29,7 +29,7 @@
 - [Discovery](#discovery)
 - [Recommendations](#recommendations)
 - [Potential ROI](#potential-roi)
-- [Potential Courses of Action](#potential-courses-of-action)
+- [Action Plan](#action-plan)
 - [Conclusion](#conclusion)
 
 # Objective
@@ -261,9 +261,11 @@ SWITCH(
 
 
 
-### Validation & Discovery
-•	Revenue trends showed seasonal fluctuations, with peak sales in January.
-•	Certain product categories had high returns (Food and Beverages), impacting profitability.
+### Discovery
+What do we discover?
+
+-	Revenue trends showed seasonal fluctuations, with peak sales in January.
+-	Certain product categories had high returns (Food and Beverages), impacting profitability.
 
 # Recommendations
 #### A. Optimize Product Strategy
@@ -282,9 +284,11 @@ SWITCH(
 Encourage E-wallet and Credit Card usage through discounts and cashback offers.
 
 
-#### Potential ROI & Action Plan
+#### Potential ROI
 -	Implementing these insights is projected to increase revenue by 10-15%.
--	Next Steps:
+
+#### Action Plan
+
 1.	Roll out customer engagement initiatives.
 2.	Adjust inventory strategies based on sales performance.
 3.	Continue refining the dashboard with new KPIs.
