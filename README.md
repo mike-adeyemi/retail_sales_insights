@@ -15,6 +15,7 @@ Power BI Dashboard Analysis: Retail Sales Insights
 -	[Data Quality Checks](#data-quality-checks)
 -	[Visualization](#visualization)
 -	[Results](#results)
+-	[Key Metrics](#key-metrics-&-insights)
 -	[DAX Measures](#dax-measures)
 -	[Analysis](#analysis)
 -	[Findings](#findings)
