@@ -1,6 +1,5 @@
 
 # Portfolio: Retail Sales Insights
-![Excel-powerbi](https://github.com/user-attachments/assets/7a22d0d5-8e93-4bc4-b35f-2de1592efe0e)
 
 # Table of Contents
 -	[Objective](#objective)
@@ -28,7 +27,7 @@
 
 # Objective
 
-- ## Key Pain Point?
+- #### Key Pain Point?
 
 To analyze supermarket sales data, identify trends, and provide actionable insights into revenue, customer behavior, and branch performance.
 
@@ -72,7 +71,7 @@ The data is sourced from an [Excel extract](https://www.kaggle.com/datasets/moha
 4.	What are the key sales trends over time?
 5.	Who are the top customers by spending?
 
--	Dashboard Visuals:
+### Dashboard Visuals:
 1.	KPI Scorecards (Total Sales, Profit, Revenue Growth)
 2.	Sales Trend Analysis (Line Charts)
 3.	Store Performance (Bar Charts, Heatmaps)
@@ -107,16 +106,19 @@ The dashboard layout follows best practices for usability, featuring:
 
 ### Data Cleaning
 - This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc
-•	Removed null values in key performance fields.
-•	Ensured all columns have appropriate data types.
-•	Checked for and removed duplicate records.
-•	Retained only relevant columns.
+-	Removed null values in key performance fields.
+-	Ensured all columns have appropriate data types.
+-	Checked for and removed duplicate records.
+-	Retained only relevant columns.
 
 # Testing
 # Data Quality Checks
 **1. Row Count Check:** Validate the total number of transactions.
+
 **2. Column Count Check:** Ensure all required fields are present.
+
 **3. Data Type Validation:** Confirm correct formats for numerical and categorical fields.
+
 **4. Missing & Duplicate Checks:**
 - Identify null/missing values.
 - Remove duplicate transactions.
@@ -126,6 +128,8 @@ The dashboard layout follows best practices for usability, featuring:
 ### Results
 - What does the dashboard look like?
   
+  [Retail Sales Insights.pdf](https://github.com/user-attachments/files/19044742/Retail.Sales.Insights.pdf)
+
 1.	Total Revenue & Profit Trends
 2.	Top-Selling Products by Revenue & Quantity
 3.	Customer Segmentation & Buying Patterns
@@ -229,6 +233,7 @@ SWITCH(
 |C|	110.57K|	5.27K|
 |A|	106.20K|	5.06K|
 |B|	106.20K|	5.06K|
+
 🔹 **Insight**: **Branch C has the highest revenue and profit.** Further investigation is needed into:
 
 - **Customer demographics** at each branch.
@@ -242,6 +247,7 @@ SWITCH(
 |Cash|	106.86K|
 |E-Wallet	|104.76K|
 |Credit Card	|95.97K|
+
 🔹 **Insight: Cash is the most preferred payment method**, indicating potential for increased digital payment adoption.
 
 ### Output
@@ -256,23 +262,23 @@ SWITCH(
 •	Certain product categories had high returns (Food and Beverages), impacting profitability.
 
 # Recommendations
-## A. Optimize Product Strategy
+#### A. Optimize Product Strategy
 - **Increase stock and marketing** for high-selling categories like **Food & Beverages and Sports & Travel**.
 - **Analyze lower-performing categories** (Health & Beauty) to improve sales strategies.
 
-## B. Improve Customer Engagement
+#### B. Improve Customer Engagement
 - Enhance membership programs to capitalize on the higher spending of members.
 - Run evening-specific promotions to maximize revenue during peak shopping hours.
 
-## C. Branch-Level Strategy
+#### C. Branch-Level Strategy
 - Leverage insights from Branch C’s success to improve performance at Branches A & B.
 - Evaluate branch-specific product demand to optimize inventory distribution.
 
-## D. Digital Payment Adoption
+#### D. Digital Payment Adoption
 Encourage E-wallet and Credit Card usage through discounts and cashback offers.
 
 
-## Potential ROI & Action Plan
+#### Potential ROI & Action Plan
 -	Implementing these insights is projected to increase revenue by 10-15%.
 -	Next Steps:
 1.	Roll out customer engagement initiatives.
