@@ -1,5 +1,5 @@
 
-# Power BI Dashboard Analysis: Retail Sales Insights
+# Portfolio: Retail Sales Insights
 ![Excel-powerbi](https://github.com/user-attachments/assets/7a22d0d5-8e93-4bc4-b35f-2de1592efe0e)
 
 # Table of Contents
