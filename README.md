@@ -19,7 +19,7 @@
 - [Results](#results)
 - [DAX Measures](#dax-measures)
 - [Calculated Column](#calculated-column)
-- [Key Metrics](#key-metrics-&-insights)
+- [Key Insights](#key-insights)
   - [Sales Analysis](#sales-performance-analysis)
   - [Customer Analysis](#customer-analysis)
   - [Branch Performance](#branch-performance)
@@ -30,7 +30,6 @@
 - [Potential ROI](#potential-roi)
 - [Action Plan](#action-plan)
 - [Conclusion](#conclusion)
-- [Key Insights](#key-insights)
 
 # Objective
 
