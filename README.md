@@ -219,21 +219,25 @@ The data is sourced from an [Excel extract](https://www.kaggle.com/datasets/moha
 4.	Product Performance (Treemaps, Tables)
 5.	Customer Analysis (Pie Charts, Segmentations)
    
-Mockup
+Dashboard mockup
 The dashboard layout follows best practices for usability, featuring:
 •	A clean, intuitive layout
 •	Filters and slicers for dynamic analysis
 •	Visual elements highlighting key insights
-Tools
+
+
+### Tools
 |Tool|	Purpose|
-|SQL Server	|Data Cleaning & Storage|
+|-|-|
 |Power BI|	Data Visualization|
 |Excel	|Initial Data Exploration|
 |GitHub|	Project Documentation & Version Control|
 
-Development
-Pseudocode
-1.	Load data from SQL Server into Power BI.
+# Development
+### Pseudocode
+- What's the general approach in creating this solution from start to finish?
+  
+1.	Load data from Kaggle to Excel into Power BI.
 2.	Clean the data (handle missing values, correct data types, etc.).
 3.	Create relationships between tables for accurate reporting.
 4.	Develop Power BI visuals and dashboards.
@@ -241,50 +245,59 @@ Pseudocode
 6.	Perform testing and validation.
 7.	Publish dashboard and document insights.
 
-Data Exploration & Cleaning
+### Data Exploration & Cleaning
+- This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc
 •	Removed null values in key performance fields.
 •	Ensured all columns have appropriate data types.
 •	Checked for and removed duplicate records.
 •	Retained only relevant columns.
 
-Transforming the Data
-SQL Query to Clean Data:
-SELECT
-    Branch,
-    Product,
-    Category,
-    SUM(Sales) AS Total_Sales,
-    SUM(Profit) AS Total_Profit,
-    COUNT(Transaction_ID) AS Total_Transactions
-FROM sales_data
-GROUP BY Branch, Product, Category;
-Creating the SQL View
-CREATE VIEW sales_summary AS
-SELECT
-    Branch,
-    Product,
-    Category,
-    SUM(Sales) AS Total_Sales,
-    SUM(Profit) AS Total_Profit,
-    COUNT(Transaction_ID) AS Total_Transactions
-FROM sales_data
-GROUP BY Branch, Product, Category;
 
-Testing & Data Quality Checks
-Row Count Validation:
-SELECT COUNT(*) AS total_rows FROM sales_summary;
-Column Count Validation:
-SELECT COUNT(*) AS column_count FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'sales_summary';
-Visualization & Results
-•	Total Revenue & Profit Trends
-•	Top-Selling Products by Revenue & Quantity
-•	Customer Segmentation & Buying Patterns
-•	Branch Performance Analysis
+# Visualization
+### Result
+- What does the dashboard look like?
+  
+1.	Total Revenue & Profit Trends
+2.	Top-Selling Products by Revenue & Quantity
+3.	Customer Segmentation & Buying Patterns
+4.	Branch Performance Analysis
 
-DAX Measures
+# DAX Measures
+
+## 1. Total Sales
+```sql
 Total Sales = SUM(sales_summary[Total_Sales])
+```
+## 2. Total Profit
+```sql
 Total Profit = SUM(sales_summary[Total_Profit])
+```
+## 3. Average Sales per Transaction
+```sql
 Avg Sales per Transaction = DIVIDE([Total Sales], COUNT(sales_summary[Total_Transactions]))
+```
+## 4. Profit
+```sql
+Profit = SUM('Retail Sales Insights'[Total]) - SUM('Retail Sales Insights'[COGS])
+```
+
+# Calculated Column
+
+## 1. Sales Hour
+```sql
+Hour = HOUR('Retail Sales Insights'[Time])
+```
+## 2. Time of the Day
+```sql
+TimeoftheDay = 
+SWITCH(
+    TRUE(),
+    'Retail Sales Insights'[Hour] >= 6 && 'Retail Sales Insights'[Hour] < 12, "Morning",
+    'Retail Sales Insights'[Hour] >= 12 && 'Retail Sales Insights'[Hour] < 18, "Afternoon",
+    'Retail Sales Insights'[Hour] >= 18 && 'Retail Sales Insights'[Hour] < 24, "Evening",
+    "Night"
+)
+```
 
 Analysis & Findings
 1.	Top-Selling Products: The highest revenue-generating products were from the Electronics category.
