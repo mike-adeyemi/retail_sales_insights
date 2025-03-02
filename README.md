@@ -26,11 +26,11 @@
   - [Payment Method Analysis](#payment-method-analysis)
 - [Analysis Approach](#analysis-approach)
 - [Validation](#validation)
-- [Discovery](#discovery)
 - [Recommendations](#recommendations)
 - [Potential ROI](#potential-roi)
 - [Action Plan](#action-plan)
 - [Conclusion](#conclusion)
+- [Key Insights](#key-insights)
 
 # Objective
 
@@ -198,7 +198,7 @@ SWITCH(
 ![image](https://github.com/user-attachments/assets/42a27de8-7aee-479e-b2a5-8a8b16716753)
 
 
-# Key Metrics & Insights
+# Key Insights
 ## A. Sales Performance Analysis
 - **Total Revenue:** £322.97K
 - **Total Sales Quantity:** 5.51K items
