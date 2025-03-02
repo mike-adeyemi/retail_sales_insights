@@ -196,25 +196,23 @@ To achieve our objective, we need:
   
 The data is sourced from an [Excel extract](https://www.kaggle.com/datasets/mohamedelaziz/supermarket-sales), with influencer performance metrics collected for analysis.
 
-Data Extraction & Storage
-The data is sourced from SQL Server and cleaned before being imported into Power BI for visualization.
-Stages
-1.	Design
-2.	Development
-3.	Testing
-4.	Analysis
+# Stages
+-	Design
+- Development
+- Testing
+- Analysis
 
    
 # Design
-Dashboard Components Required
-•	Key Business Questions Answered:
+### Dashboard Components Required
+-	Key Business Questions Answered:
 1.	What are the total sales revenue and profit?
 2.	Which branches generate the most revenue?
 3.	Which products are the best sellers?
 4.	What are the key sales trends over time?
 5.	Who are the top customers by spending?
 
-•	Dashboard Visuals:
+-	Dashboard Visuals:
 1.	KPI Scorecards (Total Sales, Profit, Revenue Growth)
 2.	Sales Trend Analysis (Line Charts)
 3.	Store Performance (Bar Charts, Heatmaps)
