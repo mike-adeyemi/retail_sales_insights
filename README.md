@@ -21,7 +21,7 @@
    - [Branch Performance](#branch-performance)
    - [Payment Method Analysis](#payment-method-analysis)
 -	[DAX Measures](#dax-measures)
--	Calculated Column
+-	[Calculated Column](#calculated-column)
 -	[Analysis Approach](#analysis-approach)
 -	[Validation](#validation)
 -	[Discovery](#discovery)
