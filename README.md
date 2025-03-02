@@ -98,7 +98,7 @@ The dashboard layout follows best practices for usability, featuring:
 |GitHub|	Project Documentation & Version Control|
 
 # Development
-### Pseudocode
+## Pseudocode
 - What's the general approach in creating this solution from start to finish?
   
 1.	Load data from Kaggle to Excel into Power BI.
