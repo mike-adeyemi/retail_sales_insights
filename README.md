@@ -264,30 +264,30 @@ The dashboard layout follows best practices for usability, featuring:
 
 # DAX Measures
 
-## 1. Total Sales
+### 1. Total Sales
 ```sql
 Total Sales = SUM(sales_summary[Total_Sales])
 ```
-## 2. Total Profit
+### 2. Total Profit
 ```sql
 Total Profit = SUM(sales_summary[Total_Profit])
 ```
-## 3. Average Sales per Transaction
+### 3. Average Sales per Transaction
 ```sql
 Avg Sales per Transaction = DIVIDE([Total Sales], COUNT(sales_summary[Total_Transactions]))
 ```
-## 4. Profit
+### 4. Profit
 ```sql
 Profit = SUM('Retail Sales Insights'[Total]) - SUM('Retail Sales Insights'[COGS])
 ```
 
-# Calculated Column
+## Calculated Column
 
-## 1. Sales Hour
+### 1. Sales Hour
 ```sql
 Hour = HOUR('Retail Sales Insights'[Time])
 ```
-## 2. Time of the Day
+### 2. Time of the Day
 ```sql
 TimeoftheDay = 
 SWITCH(
@@ -299,10 +299,42 @@ SWITCH(
 )
 ```
 
-Analysis & Findings
+# Analysis 
+## Findings
+- What did we find?
+For this analysis, we're going to focus on the questions below to get the information we need for our marketing client -
+Here are the key questions we need to answer for our marketing client:
+
 1.	Top-Selling Products: The highest revenue-generating products were from the Electronics category.
 2.	Branch Performance: The Downtown branch had the highest sales volume, but the Uptown branch had the highest average profit per sale.
 3.	Customer Insights: Repeat customers contribute over 60% of total revenue, suggesting strong brand loyalty.
+
+### 1.	Top-Selling Products
+
+|Product Line|	 Total Revenue|
+|-|-|
+|Electronic accessories|	 54,337.53| 
+|Fashion accessories|	 54,305.90| 
+|Food and beverages|	 56,144.84| 
+|Health and beauty|	 49,193.74 |
+|Home and lifestyle	 |53,861.91 |
+|Sports and travel|	 55,122.83| 
+|Grand Total|	 322,966.75| 
+
+### Output
+![image](https://github.com/user-attachments/assets/42a27de8-7aee-479e-b2a5-8a8b16716753)
+
+### 2. Branch Performance
+|Branch|	Total Revenue|	Total Sales |
+|-|-|-|
+|A|	 106,200.37| 	 101,143.21| 
+|B	 |106,197.67 	 |101,140.64| 
+|C	 |110,568.71| 	 105,303.53 |
+|Grand Total	| 322,966.75| 	 307,587.38 |
+
+### Output
+![image](https://github.com/user-attachments/assets/c574707a-2cf1-4a42-803f-2c6d7f7233e8)
+
 
 Validation & Discovery
 •	Revenue trends showed seasonal fluctuations, with peak sales in Q4.
