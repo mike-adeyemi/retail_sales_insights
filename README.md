@@ -8,7 +8,7 @@ Power BI Dashboard Analysis: Retail Sales Insights
 -	[Stages](#stages)
 -	[Design](#design)
 -	[Mockup](#dashboard-mockup)
--	[Tools](#tools)
+-	[Tools](#tools) 
 -	[Development](#development)
 -	[Pseudocode](#pseudocode)
 -	[Data Cleaning](#data-cleaning)
