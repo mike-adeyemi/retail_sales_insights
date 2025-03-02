@@ -11,12 +11,8 @@ Power BI Dashboard Analysis: Retail Sales Insights
 -	[Tools](#tools)
 -	[Development](#development)
 -	[Pseudocode](#pseudocode)
--	[Data Exploration](#data-exploration)
 -	[Data Cleaning](#data-cleaning)
--	[Transforming the Data](#transforming-the-data)
--	[Creating the SQL View](#creating-the-sql-view)
--	[Testing](#testing)
--	[Data Quality Tests](#data-quality-tests)
+-	[Data Quality Checks](#data-quality-checks)
 -	[Visualization](#visualization)
 -	[Results](#results)
 -	[DAX Measures](#dax-measures)
@@ -115,7 +111,7 @@ The dashboard layout follows best practices for usability, featuring:
 •	Checked for and removed duplicate records.
 •	Retained only relevant columns.
 
-
+# Testing
 # Data Quality Checks
 **1. Row Count Check:** Validate the total number of transactions.
 **2. Column Count Check:** Ensure all required fields are present.
