@@ -20,7 +20,7 @@
 - [DAX Measures](#dax-measures)
 - [Calculated Column](#calculated-column)
 - [Key Insights](#key-insights)
-  - [Sales Analysis](#a.-sales-performance-analysis)
+  - [Sales Analysis](#a.sales-performance-analysis)
   - [Customer Analysis](#customer-analysis)
   - [Branch Performance](#branch-performance)
   - [Payment Method Analysis](#payment-method-analysis)
