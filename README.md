@@ -1,174 +1,33 @@
-![image](https://github.com/user-attachments/assets/233f77c2-fcc1-495d-a35d-2eb536367275)Portfolio- Excel to Power BI
-
-Supermarket Sales Data Analysis
-
-
-# Objective
-To analyze supermarket sales data, identify trends, and provide actionable insights into revenue, customer behavior, and branch performance.
-
-### 1. Data Understanding & Quality Checks
-
-# Dataset Overview
-#### The dataset contains:
-
-- **Invoice Details:** Unique transaction records.
-- **Branch & City Information:** Location of transactions.
-- **Customer Demographics:** Type (Member/Normal) and gender.
-- **Product Line:** Categories of purchased items.
-- **Sales Metrics:** Quantity, tax, total revenue.
-- **Payment Method:** Cash, E-wallet, Credit card.
-
-
-# Data Quality Checks
-**1. Row Count Check:** Validate the total number of transactions.
-**2. Column Count Check:** Ensure all required fields are present.
-**3. Data Type Validation:** Confirm correct formats for numerical and categorical fields.
-**4. Missing & Duplicate Checks:**
-- Identify null/missing values.
-- Remove duplicate transactions.
-
-# Key Metrics & Insights
-## A. Sales Performance Analysis
-- **Total Revenue:** £322.97K
-- **Total Sales Quantity:** 5.51K items
-- **Gross Income:** £15.38K
-- **Cost of Goods Sold (COGS):** £307.6K
-
-
-### Analysis Approach:
-- Calculate **total revenue per product line**.
-- Identify the **highest and lowest revenue-generating categories**.
-- Compute **gross margin %** to evaluate profitability per category.
-
-|Product Line	|Total Revenue (£)	|% of Total Sales|
-|-|-|-|
-|Food and Beverages|	56,144.84|	17.4%|
-| Sports and Travel|	55,122.83	|17.1%|
-| Electronic Accessories|	54,337.53|	16.8%|
-| Fashion Accessories	|54,305.90	|16.8%|
-| Home and Lifestyle	|53,861.91|	16.7%|
-| Health and Beauty|	49,193.74	|15.2%|
-  
-🔹 Insight: Food & Beverages and Sports & Travel are the top revenue-generating categories.
-
-## B. Customer Analysis
-**Spending Behavior**
-- **Average Transaction Value per Customer Type**:
-
- - **Members**: £328 per transaction
- - **Normal Customers:** £318 per transaction
- - **Members spend slightly more per purchase**.
-   
-- **Gender-based Sales Distribution:**
-
- - **Female Customers**: 51.98%
- - **Male Customers:** 48.02%
- - **Almost equal split in purchasing behavior**.
-🔹 **Insight**: Membership customers contribute higher per-transaction revenue, suggesting that **loyalty programs** are effective.
-
-**Peak Shopping Times**
-|Time of Day|	Transaction Count|
-|-|-|
-|Morning|	191|
-|Afternoon|	359.5|
-|Evening	|528|
-
-🔹 **Insight**: The highest number of transactions occurs in the **evening,** suggesting the need for **targeted promotions and staffing adjustments**.
-
-# C. Branch Performance
-**Revenue & Profitability by Branch**
-
-|Branch|	Total Revenue (£)|	Profit (£)|
-|-|-|-|
-|C|	110.57K|	5.27K|
-|A|	106.20K|	5.06K|
-|B|	106.20K|	5.06K|
-🔹 **Insight**: **Branch C has the highest revenue and profit.** Further investigation is needed into:
-
-- **Customer demographics** at each branch.
-- **Product line popularity** per branch.
-- **Operational efficiencies** in high-performing locations.
-
-  
-# D. Payment Method Analysis
-|Payment Method|	Total COGS (£)|
-|-|-|
-|Cash|	106.86K|
-|E-Wallet	|104.76K|
-|Credit Card	|95.97K|
-🔹 **Insight: Cash is the most preferred payment method**, indicating potential for increased digital payment adoption.
-
-# 3. Recommendations
-## A. Optimize Product Strategy
-- **Increase stock and marketing** for high-selling categories like **Food & Beverages and Sports & Travel**.
-- **Analyze lower-performing categories** (Health & Beauty) to improve sales strategies.
-B. Improve Customer Engagement
-Enhance membership programs to capitalize on the higher spending of members.
-Run evening-specific promotions to maximize revenue during peak shopping hours.
-C. Branch-Level Strategy
-Leverage insights from Branch C’s success to improve performance at Branches A & B.
-Evaluate branch-specific product demand to optimize inventory distribution.
-D. Digital Payment Adoption
-Encourage E-wallet and Credit Card usage through discounts and cashback offers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Portfolio- Excel to Power BI
 
 Power BI Dashboard Analysis: Retail Sales Insights
 
-Table of Contents
-1.	Objective
-2.	Data Source
-3.	Stages
-4.	Design
-5.	Mockup
-6.	Tools
-7.	Development
-8.	Pseudocode
-9.	Data Exploration
-10.	Data Cleaning
-11.	Transforming the Data
-12.	Creating the SQL View
-13.	Testing
-14.	Data Quality Tests
-15.	Visualization
-16.	Results
-17.	DAX Measures
-18.	Analysis
-19.	Findings
-20.	Validation
-21.	Discovery
-22.	Recommendations
-23.	Potential ROI
-24.	Potential Courses of Action
-25.	Conclusion
+# Table of Contents
+-	[Objective](#objective)
+-	[Data Source](#data-source)
+-	[Stages](#stages)
+-	[Design](#design)
+-	[Mockup](#mockup)
+-	[Tools](#tools)
+-	[Development](#development)
+-	[Pseudocode](#pseudocode)
+-	[Data Exploration](#data-exploration)
+-	[Data Cleaning](#data-cleaning)
+-	[Transforming the Data](#transforming-the-data)
+-	[Creating the SQL View](#creating-the-sql-view)
+-	[Testing](#testing)
+-	[Data Quality Tests](#data-quality-tests)
+-	[Visualization](#visualization)
+-	[Results](#results)
+-	[DAX Measures](#dax-measures)
+-	[Analysis](#analysis)
+-	[Findings](#findings)
+-	[Validation](#validation)
+-	[Discovery](#discovery)
+-	[Recommendations](#recommendations)
+-	[Potential ROI](#potential-roi)
+-	[Potential Courses of Action](#potential-courses-of-action)
+-	[Conclusion](#conclusion)
 
 # Objective
 
@@ -184,17 +43,21 @@ To develop a Power BI dashboard that offers deep insights into sales trends, cus
 
 As a Business Analyst, I need a comprehensive dashboard to analyze sales trends, customer behavior, and product performance, allowing the company to optimize its business strategy and increase revenue.
 
+### 1. Data Understanding
+
+# Dataset Overview
+#### The dataset contains:
+
+- **Invoice Details:** Unique transaction records.
+- **Branch & City Information:** Location of transactions.
+- **Customer Demographics:** Type (Member/Normal) and gender.
+- **Product Line:** Categories of purchased items.
+- **Sales Metrics:** Quantity, tax, total revenue.
+- **Payment Method:** Cash, E-wallet, Credit card.
+
 ### Data Source
-- What data is needed?
-
-To achieve our objective, we need:
-
--	Sales Transaction Data
--	Customer Demographics
--	Product Details
--	Store Branch Performance
-  
 The data is sourced from an [Excel extract](https://www.kaggle.com/datasets/mohamedelaziz/supermarket-sales), with influencer performance metrics collected for analysis.
+
 
 # Stages
 -	Design
@@ -245,12 +108,21 @@ The dashboard layout follows best practices for usability, featuring:
 6.	Perform testing and validation.
 7.	Publish dashboard and document insights.
 
-### Data Exploration & Cleaning
+### Data Cleaning
 - This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc
 •	Removed null values in key performance fields.
 •	Ensured all columns have appropriate data types.
 •	Checked for and removed duplicate records.
 •	Retained only relevant columns.
+
+
+# Data Quality Checks
+**1. Row Count Check:** Validate the total number of transactions.
+**2. Column Count Check:** Ensure all required fields are present.
+**3. Data Type Validation:** Confirm correct formats for numerical and categorical fields.
+**4. Missing & Duplicate Checks:**
+- Identify null/missing values.
+- Remove duplicate transactions.
 
 
 # Visualization
@@ -261,6 +133,15 @@ The dashboard layout follows best practices for usability, featuring:
 2.	Top-Selling Products by Revenue & Quantity
 3.	Customer Segmentation & Buying Patterns
 4.	Branch Performance Analysis
+
+
+# Key Metrics & Insights
+## A. Sales Performance Analysis
+- **Total Revenue:** £322.97K
+- **Total Sales Quantity:** 5.51K items
+- **Gross Income:** £15.38K
+- **Cost of Goods Sold (COGS):** £307.6K
+
 
 # DAX Measures
 
@@ -299,64 +180,100 @@ SWITCH(
 )
 ```
 
-# Analysis 
-## Findings
-- What did we find?
-For this analysis, we're going to focus on the questions below to get the information we need for our marketing client -
-Here are the key questions we need to answer for our marketing client:
+### Analysis Approach:
+- Calculate **total revenue per product line**.
+- Identify the **highest and lowest revenue-generating categories**.
+- Compute **gross margin %** to evaluate profitability per category.
 
-1.	Top-Selling Products: The highest revenue-generating products were from the Electronics category.
-2.	Branch Performance: The Downtown branch had the highest sales volume, but the Uptown branch had the highest average profit per sale.
-3.	Customer Insights: Repeat customers contribute over 60% of total revenue, suggesting strong brand loyalty.
+|Product Line	|Total Revenue (£)	|% of Total Sales|
+|-|-|-|
+|Food and Beverages|	56,144.84|	17.4%|
+| Sports and Travel|	55,122.83	|17.1%|
+| Electronic Accessories|	54,337.53|	16.8%|
+| Fashion Accessories	|54,305.90	|16.8%|
+| Home and Lifestyle	|53,861.91|	16.7%|
+| Health and Beauty|	49,193.74	|15.2%|
 
-### 1.	Top-Selling Products
-
-|Product Line|	 Total Revenue|
-|-|-|
-|Electronic accessories|	 54,337.53| 
-|Fashion accessories|	 54,305.90| 
-|Food and beverages|	 56,144.84| 
-|Health and beauty|	 49,193.74 |
-|Home and lifestyle	 |53,861.91 |
-|Sports and travel|	 55,122.83| 
-|Grand Total|	 322,966.75| 
-
+🔹 Insight: Food & Beverages and Sports & Travel are the top revenue-generating categories.
+  
 ### Output
 ![image](https://github.com/user-attachments/assets/42a27de8-7aee-479e-b2a5-8a8b16716753)
 
-### 2. Branch Performance
-|Branch|	Total Revenue|	Total Sales |
+
+## B. Customer Analysis
+**Spending Behavior**
+- **Average Transaction Value per Customer Type**:
+
+ - **Members**: £328 per transaction
+ - **Normal Customers:** £318 per transaction
+ - **Members spend slightly more per purchase**.
+   
+- **Gender-based Sales Distribution:**
+
+ - **Female Customers**: 51.98%
+ - **Male Customers:** 48.02%
+ - **Almost equal split in purchasing behavior**.
+🔹 **Insight**: Membership customers contribute higher per-transaction revenue, suggesting that **loyalty programs** are effective.
+
+**Peak Shopping Times**
+|Time of Day|	Transaction Count|
+|-|-|
+|Morning|	191|
+|Afternoon|	359.5|
+|Evening	|528|
+
+🔹 **Insight**: The highest number of transactions occurs in the **evening,** suggesting the need for **targeted promotions and staffing adjustments**.
+
+# C. Branch Performance
+**Revenue & Profitability by Branch**
+
+|Branch|	Total Revenue (£)|	Profit (£)|
 |-|-|-|
-|A|	 106,200.37| 	 101,143.21| 
-|B	 |106,197.67 	 |101,140.64| 
-|C	 |110,568.71| 	 105,303.53 |
-|Grand Total	| 322,966.75| 	 307,587.38 |
+|C|	110.57K|	5.27K|
+|A|	106.20K|	5.06K|
+|B|	106.20K|	5.06K|
+🔹 **Insight**: **Branch C has the highest revenue and profit.** Further investigation is needed into:
+
+- **Customer demographics** at each branch.
+- **Product line popularity** per branch.
+- **Operational efficiencies** in high-performing locations.
+
+  
+# D. Payment Method Analysis
+|Payment Method|	Total COGS (£)|
+|-|-|
+|Cash|	106.86K|
+|E-Wallet	|104.76K|
+|Credit Card	|95.97K|
+🔹 **Insight: Cash is the most preferred payment method**, indicating potential for increased digital payment adoption.
 
 ### Output
-![image](https://github.com/user-attachments/assets/c574707a-2cf1-4a42-803f-2c6d7f7233e8)
+![image](https://github.com/user-attachments/assets/855ac6a6-8ac0-42c5-8c71-f723f268c55a)
 
-### 3. Customer Insights
-|Branch|	 Total Revenue |
-|Female|	 167,882.93 |
-|Male|	 155,083.82 |
 
-### Output
-![image](https://github.com/user-attachments/assets/55399fe7-3003-493f-9e3c-96f4f3259198)
 
-#### Notes
-For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI based on this following
-Sales Transaction Data
--	Excecutive Sales
--	Product and Customer Insights
+
 
 ### Validation & Discovery
 •	Revenue trends showed seasonal fluctuations, with peak sales in January.
 •	Certain product categories had high returns (Food and Beverages), impacting profitability.
 
-## Recommendations
-1.	Stock More High-Demand Products: Increase stock levels for the most profitable items in Food and Beverages.
-2.	Focus on Repeat Customers in Yangon city: Implement targeted promotions for high-value customers in Yangon branch.
-3.	Optimize Low-Performing Branches: Improve marketing and inventory strategies Branch A and B underperforming locations.
+# Recommendations
+## A. Optimize Product Strategy
+- **Increase stock and marketing** for high-selling categories like **Food & Beverages and Sports & Travel**.
+- **Analyze lower-performing categories** (Health & Beauty) to improve sales strategies.
+
+## B. Improve Customer Engagement
+- Enhance membership programs to capitalize on the higher spending of members.
+- Run evening-specific promotions to maximize revenue during peak shopping hours.
+
+## C. Branch-Level Strategy
+- Leverage insights from Branch C’s success to improve performance at Branches A & B.
+- Evaluate branch-specific product demand to optimize inventory distribution.
+
+## D. Digital Payment Adoption
+Encourage E-wallet and Credit Card usage through discounts and cashback offers.
+
 
 ## Potential ROI & Action Plan
 -	Implementing these insights is projected to increase revenue by 10-15%.
