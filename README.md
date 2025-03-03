@@ -88,6 +88,7 @@ The dashboard layout follows best practices for usability, featuring:
 -	A clean, intuitive layout
 -	Filters and slicers for dynamic analysis
 -	Visual elements highlighting key insights
+![dashboard_mockup](https://github.com/user-attachments/assets/373c59c3-f24c-4e69-8da8-1f0765e4d648)
 
 
 ### Tools
