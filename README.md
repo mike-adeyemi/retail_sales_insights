@@ -1,4 +1,3 @@
-
 # Portfolio: Retail Sales Insights
 
 
